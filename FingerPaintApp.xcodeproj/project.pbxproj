@@ -14,6 +14,9 @@
 		4670DC97211E0305009202EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4670DC95211E0305009202EF /* LaunchScreen.storyboard */; };
 		4670DC9A211E0305009202EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4670DC99211E0305009202EF /* main.m */; };
 		4670DCAD211E0538009202EF /* Oxford_Orange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4670DCAC211E0538009202EF /* Oxford_Orange.jpg */; };
+		4670DCB0211E091E009202EF /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 4670DCAF211E091E009202EF /* Line.m */; };
+		4670DCB3211E0940009202EF /* LinePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4670DCB2211E0940009202EF /* LinePoint.m */; };
+		4670DCB6211E0A9C009202EF /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 4670DCB5211E0A9C009202EF /* Canvas.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,12 @@
 		4670DC98211E0305009202EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4670DC99211E0305009202EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4670DCAC211E0538009202EF /* Oxford_Orange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Oxford_Orange.jpg; sourceTree = "<group>"; };
+		4670DCAE211E091E009202EF /* Line.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		4670DCAF211E091E009202EF /* Line.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		4670DCB1211E0940009202EF /* LinePoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinePoint.h; sourceTree = "<group>"; };
+		4670DCB2211E0940009202EF /* LinePoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinePoint.m; sourceTree = "<group>"; };
+		4670DCB4211E0A9C009202EF /* Canvas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
+		4670DCB5211E0A9C009202EF /* Canvas.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Canvas.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +73,12 @@
 				4670DC8B211E0303009202EF /* AppDelegate.m */,
 				4670DC8D211E0303009202EF /* ViewController.h */,
 				4670DC8E211E0303009202EF /* ViewController.m */,
+				4670DCAE211E091E009202EF /* Line.h */,
+				4670DCAF211E091E009202EF /* Line.m */,
+				4670DCB1211E0940009202EF /* LinePoint.h */,
+				4670DCB2211E0940009202EF /* LinePoint.m */,
+				4670DCB4211E0A9C009202EF /* Canvas.h */,
+				4670DCB5211E0A9C009202EF /* Canvas.m */,
 				4670DC90211E0303009202EF /* Main.storyboard */,
 				4670DC93211E0305009202EF /* Assets.xcassets */,
 				4670DCAC211E0538009202EF /* Oxford_Orange.jpg */,
@@ -146,8 +161,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4670DC8F211E0303009202EF /* ViewController.m in Sources */,
+				4670DCB0211E091E009202EF /* Line.m in Sources */,
 				4670DC9A211E0305009202EF /* main.m in Sources */,
 				4670DC8C211E0303009202EF /* AppDelegate.m in Sources */,
+				4670DCB3211E0940009202EF /* LinePoint.m in Sources */,
+				4670DCB6211E0A9C009202EF /* Canvas.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
