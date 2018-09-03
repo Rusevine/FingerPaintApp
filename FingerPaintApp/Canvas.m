@@ -62,16 +62,13 @@
 - (void)drawRect:(CGRect)rect {
     
    
-    UIBezierPath *path1 = [[UIBezierPath alloc] init];
-    UIBezierPath *path2 = [[UIBezierPath alloc] init];
-    [self.pathArray addObject:path1];
-    [self.pathArray addObject:path2];
-    
-    
-    
-    for (UIBezierPath *path in self.pathArray) {
+    UIBezierPath *path = [[UIBezierPath alloc] init];
+    // UIBezierPath *path2 = [[UIBezierPath alloc] init];
     path.lineWidth = 5;
     path.lineCapStyle = kCGLineCapRound;
+    [[UIColor blackColor] setStroke];
+    
+
      for (Line *line in self.lines) {
         for (LinePoint *linePoint in line.linePoints) {
             if (linePoint == line.linePoints.firstObject) {
@@ -82,7 +79,6 @@
         }
             [path stroke];
         }
-    }
 }
    
 
